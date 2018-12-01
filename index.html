@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+<script src="assets/javascript/game.js"> </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--Typus Orbis Terrarum image/banner at top of page-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img id="TOTbanner" src="assets/images/BannerimageTOT.jpg">
+            </div>
+        </div>
+    </div>
+    <!--2 columns-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <!--Left column for pictures, changes after every game to represent previous correct answer-->
+            <div class="col-sm-4">
+                <img id="hangmanimg" src="assets/images/hangman.jpg">
+            
+            </div>
+            <!--Right column for Wins, Current Word, Number of Guesses Remining, Letters Already  Guessed-->
+            <div class="col-sm-4">
+                <div class="section">
+                <h5>Press Any Key To Get Started!</h5>
+                <br>
+                <h5>Wins</h5>
+                <h4 id="totalWins"></h4>
+                <h5>Current Word</h5>
+                <h4 id="currentcountry"></h4>
+                <h5>Number of Guesses Remaining</h5>
+                <h4 id="guessesleft"></h4>
+                <h5>Letters Already Guessed</h5>
+                <h4 id="guessed"></h4>
+            </div>
+        </div>
+
+        <div class="col-sm-2"></div>
+    </div>
+
+</body>
+
+</html>
